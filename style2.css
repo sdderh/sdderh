@@ -27,8 +27,8 @@
     h2{
         padding: 10px;
         margin-bottom: 30px;
-        border: 1px dotted #81c58c;
-        border-left: 10px solid #d1e466;
+        border: 1px dotted #81c58c;;;
+        border-left: 10px solid #1bdd45;
         color: rgb(221, 30, 30);
     }
     #container {
@@ -37,14 +37,13 @@
         width: 980px;
        }
        body{background-color: #fbf9cc;
-           color: rgb(8, 23, 238);
+           color: rgb(15, 30, 236);
        }
        h1{ 
            color: rgb(56, 245, 18);
        }
-
-       main{
-           background-color: #ffd0ad inset;
+       p{
+           margin: 0 30px;
        }
-
+   
   
