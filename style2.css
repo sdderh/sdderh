@@ -1,29 +1,12 @@
 
     @charset "utf-8";
-
-    body{
-        background-color: #fbf9cc;
-        background-image: 
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-attachment: fixed;
-        background-size: 50px 70px;
-        
-    }
     a{
         color:#df4839
     }
-    a:hover{
-        color: #ff705b;
-        text-decoration: none;
+    
     }
     a[target="_blank"]::after{
         content: url(img/ico_blank.png);
-        margin-left: 5px;
-        vertical-align: middle;
-    }
-    a[target="mailto:"]::after{
-        content: url(img/ico_mail.png);
         margin-left: 5px;
         vertical-align: middle;
     }
@@ -41,102 +24,27 @@
         text-align: center;
         line-height: 1;
     }
-    h1{
-        border-radius: 50%;
-        text-shadow: 1px 1px 2px #307657;
-        box-shadow: 0 0 10px rgb(0,0,0,0.5);
-        background-image: linear-gradient(to bottom,#6fbb9a,#4a9d79);
-        font-family: 'Limelight',cursive;
-    }
     h2{
         padding: 10px;
         margin-bottom: 30px;
         border: 1px dotted #81c58c;
         border-left: 10px solid #d1e466;
-        color: rgb(71, 42, 177);
+        color: rgb(221, 30, 30);
     }
-    #contents{
-        width: 798x;
-        margin: 40px auto;
-        margin: 40px;
-        padding: 40px 80px;
-        border: 1px solid #f6bb9e;
-        background-color: #fff;
-    }
-    .more{
-        text-align: right;
-    }
-    .more::after{
-        content: url(img/ico_arrow.png);
-        margin-left: 3px;
-        vertical-align: middle;
-    }
-    .h{
-        padding: 10px;
-        margin-bottom: 30px;
-        border: 1px dotted #94c8b1;
-        border-left: 10px solid #d0e35b;
-        color:#6fbb9a;
-    }
-    .h-sub span{
-        font-weight: normal;
-    }
-    .h-sub{
-        padding: 10px;
-        background-color: #fbf9cc;
-        color: #ff705b;
-        border-radius: 10px;
-        box-shadow: 0 0 5px 2px #ffd0ad inset;
-    }
-    section+section{
-        margin-top: 80px;
-    }
-    #contents > section+section{
-        margin-top: 80px;
-    }
-    header,nav,footer{
-        text-align: center;
-    }
-    .menu li{
-        list-style-type: none;
-        /*
-        border: 1px solid #f00
-        */;
-        display: inline-block;
-        width: 180px;
-        margin: 0 10px;
-    }
-    .menu a{
-        display: block;
-        padding: 10px;
-        background:  #6fbb9a;
-        border-radius: 8px;
-        color: #fff;
-        text-decoration: none;
-    }
-    .menu a:hover{
-        background: #90ddbb;
-    }
-    .imgL{
-        float: left;
-        margin-right: 20px;
-    }
-    .imgR{
-        float: right;
-        margin-left: 20px;
-    }
-    .img-round{
-        border-radius: 50%;
-        text-shadow: 1px 1px 2px #307657;
-    }
-    h1,header,nav,footer{
-        text-align: center;
-    }
-    }
-    .clear{
-        clear: both;
-    }
-    .clearfix::after{
-        content: "";
-        display: block;
-        clear: both;
+    #container {
+        background-color: #ffd0ad ;
+        margin: 20px auto;
+        width: 980px;
+       }
+       body{background-color: #fbf9cc;
+           color: rgb(8, 23, 238);
+       }
+       h1{ 
+           color: rgb(56, 245, 18);
+       }
+
+       main{
+           background-color: #ffd0ad inset;
+       }
+
+  
