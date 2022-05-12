@@ -128,7 +128,6 @@ header,nav,footer{
 h1,header,nav,footer{
     text-align: center;
 }
-}
 .clear{
     clear: both;
 }
@@ -136,3 +135,27 @@ h1,header,nav,footer{
     content: "";
     display: block;
     clear: both;
+}
+
+nav{
+    background-color: pink;
+    text-align: right;
+}
+nav ul{
+    margin: 0px;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: aqua;
+}
+nav li a:hover{
+    background-color: lightyellow;
+    color: red;
+    transition: background-color 2s linear,color 2s ease-in-out;
+}
