@@ -8,6 +8,7 @@ body{
     background-attachment: fixed;
     background-size: 50px 70px;
     background: #fbf9cc url(img/bg.png) repeat-x;
+    margin: 0px;
 }
 a{
     color:#df4839
